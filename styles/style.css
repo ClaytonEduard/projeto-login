@@ -45,6 +45,8 @@ section#login {
     /*para que tudo que ficar de fora da borda fica escontido, assim aredonda a borda na imagem*/
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login>div#imagem {
@@ -55,8 +57,7 @@ section#login>div#imagem {
     height: 200px;
 }
 
-section#login>div#formulario{
+section#login>div#formulario {
     display: block;
     padding: 10px;
-
 }
