@@ -18,6 +18,7 @@ Grandes Telas: acima de 1200px
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login>div#imagem {
@@ -31,7 +32,7 @@ Grandes Telas: acima de 1200px
         width: 70%;
     }
 }
-
+/*Descktop e maiores*/
 @media screen and (min-width: 992px) {
 
     body{
@@ -39,7 +40,7 @@ Grandes Telas: acima de 1200px
     }
     section#login {
         width: 950px;
-        
+        height: 400px;
     }
 
     section#login>div#imagem {
@@ -58,6 +59,7 @@ Grandes Telas: acima de 1200px
     }
     div#formulario>p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 
 }
